@@ -1,0 +1,8 @@
+class char_at 
+{
+	public static void main(String[] args) 
+	{
+		String s = "maharashtra";
+		System.out.println(s.charAt(5));
+	}
+}

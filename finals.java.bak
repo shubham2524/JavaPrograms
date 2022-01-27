@@ -1,0 +1,15 @@
+class finals  
+{
+	final int a =10;
+	final void method1()
+	{
+		System.out.println("this is final methd");
+	}
+	public static void main(String[] args) 
+	{
+
+		finals fn = new finals();
+		fn.a = 10;
+		System.out.println(fn.a);
+	}
+}

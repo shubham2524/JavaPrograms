@@ -1,0 +1,34 @@
+class A 
+{
+	int i;
+	A()
+	{
+		System.out.println("constructor-1");
+
+	}
+}
+
+
+class B 
+{
+	int i;
+	B()
+	{
+		System.out.println("constructor-2");
+
+	}
+}
+class Multiple extends B//,A
+{
+	/*Multiple()
+	{
+		super();
+		System.out.println("default constructor");
+	}
+*/
+
+	public static void main(String[] args) 
+	{
+		System.out.println("multiple inheritance is not used by class ");
+	}
+}

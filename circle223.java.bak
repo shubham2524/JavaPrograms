@@ -1,0 +1,18 @@
+class circle223 
+{
+	public static void main(String[] args) 
+	{
+		non_static_method obj = new non_static_method();
+		obj.non_static_method();
+	}
+	public void non_static_method()
+	{
+		int r  = 10;
+		double area = 3.14*r*r;
+		System.out.println(area);
+	}
+
+	
+}
+
+

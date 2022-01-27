@@ -1,0 +1,20 @@
+class call_static_method 
+{
+	public static void main(String[] args) 
+	{
+		called1();
+		call_static_method.called1();
+		sample.called2();
+	}
+	public static void called1()
+	{
+		System.out.println("this is called methord1");
+	}
+}
+class sample
+{
+	public static void called2()
+	{
+		System.out.println("this is called method 2");
+	}
+}

@@ -1,0 +1,28 @@
+class A 
+{
+	String a ="shubham";
+
+}
+
+class B extends A
+{
+	String  a = "saurabh";
+	 void method1()
+	{
+	
+	System.out.println(a);//child class
+	System.out.println(this.a);//child class variable  
+	System.out.println(super.a);//parent class variable
+	
+	}
+
+} 
+class this_super extends B
+{
+	public static void main(String[] args) 
+	{
+		B obj  =  new B();
+		obj.method1();
+			
+	}
+}

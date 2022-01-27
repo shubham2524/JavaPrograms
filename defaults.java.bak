@@ -1,0 +1,24 @@
+class A 
+{
+	void method()
+	{
+		System.out.println("this is super class- default method");
+	}
+}
+class B extends A
+{
+	private void method()
+	{
+		System.out.println("this is sub class-default method");
+	}
+}
+class defaults
+{
+
+	public static void main(String[] args) 
+	{
+		A a1 = new B();
+		a1.method();
+		
+	}
+}

@@ -1,0 +1,10 @@
+class static_blocks 
+{
+	static {
+		System.out.println("this is static block, it will execute before main method");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("this is main method");
+	}
+}
